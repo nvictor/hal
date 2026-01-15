@@ -9,6 +9,16 @@ HFN is designed to answer questions like:
 
 HFN intentionally avoids bar-level analysis and Roman numeral theory. It is meant for songwriting, arranging, quick analysis, and music software tooling.
 
+Quick example:
+
+```
+Intro: =Am (Am =)
+Verse: ⇄Am (Am ⇄ F)
+Pre: ↗E (Am → Dm → E)
+Chorus: ⇄E (E ⇄ G)
+Outro: =Am (Am =)
+```
+
 ## Core Idea
 
 HFN separates two concerns:
@@ -69,7 +79,7 @@ Notes:
 
 ---
 
-## Example Song
+## Another Example
 
 Fictional song in A minor using all symbols (single-line sections):
 
