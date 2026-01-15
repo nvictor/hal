@@ -41,7 +41,7 @@ Section     ::= SectionHeader ":" SectionBody
 
 SectionHeader ::= Identifier
 
-SectionBody ::= [ CenterState ] HarmonicMotion
+SectionBody ::= [ CenterState ] "(" HarmonicMotion ")"
 
 CenterState ::= CenterOperator Chord
 
@@ -98,8 +98,8 @@ Intro: Am →
 
 ## 6. Parsing Notes
 
-- Chord symbols are not validated by the grammar
-- Line breaks are not semantically meaningful
+- HFN is **line-oriented**: each section is represented as a single logical line of text.
+- Chord symbols are not validated by the grammar.
 - Parsers should output a structured representation with:
   - section name
   - optional center state

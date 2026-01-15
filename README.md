@@ -52,55 +52,38 @@ Examples:
 
 ## Section Syntax
 
-Recommended formatting:
+HFN is **one line per section**:
 
 ```
-SectionName: <optional center-state>
-            <chord motion>
+SectionName: <optional center-state> (<chord motion>)
 ```
 
-Single-line form is also acceptable:
+Examples:
+- `Intro: =Am (Am =)`
+- `Verse: ⇄Am (Am ⇄ F)`
+- `Pre: ↗E (Am → Dm → F → E)`
 
-```
-SectionName: <center-state> (<chord motion>)
-```
+Notes:
+- The **center-state** is optional. Omit it when the center is obvious or unchanged.
+- The **chord motion** is a left-to-right sequence of chord tokens separated by motion operators (`=`, `⇄`, `→`).
 
 ---
 
 ## Example Song
 
-Fictional song in A minor using all symbols:
+Fictional song in A minor using all symbols (single-line sections):
 
 ```
-Intro: =Am
-       Am =
-
-Verse: ⇄Am
-       Am ⇄ F
-
-Verse 2: ⊃Am
-         Am ⇄ F → Dm
-
-Pre: ↗E
-     Am → Dm → F → E
-
-Chorus: ⇄E
-        E ⇄ G
-
-Post: =E
-      E =
-
-Bridge: →C
-        E → F → C
-
-Break: =C
-       C =
-
-Final Chorus: ↗E
-              C → Am → E ⇄ G
-
-Outro: =Am
-       Am =
+Intro: =Am (Am =)
+Verse: ⇄Am (Am ⇄ F)
+Verse 2: ⊃Am (Am ⇄ F → Dm)
+Pre: ↗E (Am → Dm → F → E)
+Chorus: ⇄E (E ⇄ G)
+Post: =E (E =)
+Bridge: →C (E → F → C)
+Break: =C (C =)
+Final Chorus: ↗E (C → Am → E ⇄ G)
+Outro: =Am (Am =)
 ```
 
 ## One-line Tonal Roadmap
