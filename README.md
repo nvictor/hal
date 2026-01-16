@@ -1,6 +1,6 @@
 # Harmonic Flow Notation (HFN)
 
-Harmonic Flow Notation (HFN) is a lightweight, section-level notation for describing **harmonic center (tonal gravity)** and **harmonic motion** across a song form.
+Harmonic Flow Notation (HFN) is a lightweight, section-level notation for describing harmonic center (tonal gravity) and harmonic motion across a song form.
 
 HFN is designed to answer questions like:
 - What harmony is this section centered on?
