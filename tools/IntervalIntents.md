@@ -14,4 +14,3 @@ Perceived communicative intent of directed intervals (Western tonal context)
 0 → 8, 0 → 9 — Wonder
 0 → 10, 0 → 11 — Insistence
 0 → 12 — Expansion (Transcendence)
-
