@@ -23,8 +23,8 @@ Outro: =Am (Am =)
 
 HFN separates two concerns:
 
-1. **Center state** — what feels like “home” at a given moment
-2. **Harmonic motion** — how chords move within or away from that center
+1. Center state — what feels like “home” at a given moment
+2. Harmonic motion — how chords move within or away from that center
 
 A section may:
 - Omit the center when it is obvious, or
@@ -62,7 +62,7 @@ Examples:
 
 ## Section Syntax
 
-HFN is **one line per section**:
+HFN is one line per section:
 
 ```
 SectionName: <optional center-state> (<chord motion>)
@@ -74,15 +74,16 @@ Examples:
 - `Pre: ↗E (Am → Dm → F → E)`
 
 Notes:
-- The **center-state** is optional. Omit it when the center is obvious or unchanged.
-- The **chord motion** is a left-to-right sequence of chord tokens separated by motion operators (`=`, `⇄`, `→`).
+- The center-state is optional. Omit it when the center is obvious or unchanged.
+- The chord motion is a left-to-right sequence of chord tokens separated by motion operators (`=`, `⇄`, `→`).
 
 ---
 
-## Another Example
+## Examples
 
-Fictional song in A minor using all symbols (single-line sections):
+### Fictional song in A minor using all symbols
 
+Sections:
 ```
 Intro: =Am (Am =)
 Verse: ⇄Am (Am ⇄ F)
@@ -96,10 +97,70 @@ Final Chorus: ↗E (C → Am → E ⇄ G)
 Outro: =Am (Am =)
 ```
 
-## One-line Tonal Roadmap
-
+Tonal roadmap:
 ```
 =Am ⇄Am ⊃Am ↗E ⇄E =E →C =C ↗E =Am
+```
+
+### Holy Forever (Bethel Music & Jenn Johnson)
+
+Sections:
+```
+Intro: =Bb (Bb → C → Am → Dm → C)
+Verse: ⊃F (F → Bb → C → Dm → C → Bb → F)
+```
+
+Tonal roadmap:
+```
+=Bb ⊃F
+```
+
+### Way Maker (Leeland)
+
+Sections:
+```
+Intro, Verse, Chorus: ⊃E (A → E → B → C#m)
+Build: ⊃E (A → G#m → B → C#m)
+```
+
+Tonal roadmap:
+```
+⊃E
+```
+
+### What A Beautiful Name (Hillsong Worship)
+
+Sections:
+```
+Intro: =D (D =)
+Verse: ⊃D (D → G → Bm → A → Bm → C#° → D)
+Chorus: ⊃D (D → A → Bm → A → G → F#m → A → Bm → A → G)
+Bridge: ⊃G (G → A → Bm → F#m → G → A → Bm → A)
+```
+
+Tonal roadmap:
+```
+=D ⊃D ⊃G
+```
+
+### Wings Of Death / Introduction (Jeroen Hippel)
+
+Sections:
+```
+Intro: =Am (Am =)
+Verse: ⇄C (C → B° → Am → C → B°)
+Inter: ⇄Am (Am → Dm → C → Am → G → Am)
+Chorus: ⇄Am (
+    Am → C → B° → Am → G → Am → Em,
+    C → Em → Dm → Em → Dm → Em,
+    Em → Dm → C → Am → G → Am,
+    Am → B° → C → Dm → Am
+)
+```
+
+Tonal roadmap:
+```
+=Am ⇄C ⇄Am
 ```
 
 ## Design Goals
