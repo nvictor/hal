@@ -62,10 +62,19 @@ Examples:
 
 ## Section Syntax
 
-HFN is one line per section:
+HFN is typically one line per section:
 
 ```
 SectionName: <optional center-state> (<chord motion>)
+```
+
+For complex sections, you can separate phrases with commas and split them across multiple lines:
+
+```
+SectionName: <center-state> (
+    <phrase 1>,
+    <phrase 2>
+)
 ```
 
 Examples:
@@ -76,6 +85,7 @@ Examples:
 Notes:
 - The center-state is optional. Omit it when the center is obvious or unchanged.
 - The chord motion is a left-to-right sequence of chord tokens separated by motion operators (`=`, `⇄`, `→`).
+- Commas `,` can be used to separate distinct musical phrases.
 
 ---
 
@@ -106,13 +116,13 @@ Tonal roadmap:
 
 Sections:
 ```
-Intro: =Bb (Bb → C → Am → Dm → C)
+Intro: ⊃Bb (Bb → C → Am → Dm → C)
 Verse: ⊃F (F → Bb → C → Dm → C → Bb → F)
 ```
 
 Tonal roadmap:
 ```
-=Bb ⊃F
+⊃Bb ⊃F
 ```
 
 ### Way Maker (Leeland)
