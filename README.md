@@ -19,7 +19,7 @@ Chorus: ⇄E (E ⇄ G)
 Outro: =Am (Am =)
 ```
 
-## Core Idea
+## Design Principles
 
 HFN separates two concerns:
 
@@ -30,7 +30,7 @@ A section may:
 - Omit the center when it is obvious, or
 - Explicitly declare it when changing, ambiguous, or structurally important
 
-## Symbols
+## Core Axes
 
 ### Center-state operators (prefix)
 
@@ -173,14 +173,13 @@ Tonal roadmap:
 =Am ⇄C ⇄Am
 ```
 
-## Design Goals
+## Intended Use
 
+HFN is designed to be:
 - Readable at a glance
 - Compact and expressive
 - Parsable for software
 - Focused on section-level intent
-
-## Non-goals
 
 HFN does not attempt to:
 - Replace chord charts or lead sheets
