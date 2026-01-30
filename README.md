@@ -60,6 +60,17 @@ Examples:
 - `Am ⇄ F`
 - `Am → Dm → E`
 
+### Octave modifiers (suffix)
+
+| Notation | Meaning |
+|--------|--------|
+| `↑` | Shift up one octave |
+| `↓` | Shift down one octave |
+
+Examples:
+- `=Am↓`
+- `Am↑`
+
 ## Section Syntax
 
 HFN is typically one line per section:
