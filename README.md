@@ -47,7 +47,7 @@ Examples:
 - `↗E`
 - `→C`
 
-### Harmonic motion operators (in-line)
+### Chord motion operators (in-line)
 
 | Notation | Meaning |
 |--------|--------|
@@ -68,7 +68,7 @@ Examples:
 | `↓` | Shift down one octave |
 
 Examples:
-- `=Am↓`
+- `Am↓`
 - `Am↑`
 
 ## Section Syntax
