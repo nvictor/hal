@@ -63,7 +63,7 @@ Optimized for high-speed harmonic capture.
 - Omit section names if just capturing a roadmap.
 - Use `~` for oscillation if `⇄` is hard to type.
 
-Example: `~Am(Am~F>G)`
+Example: `~Am (Am~F>G)`
 
 ---
 
