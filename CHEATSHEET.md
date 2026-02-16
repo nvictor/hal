@@ -16,3 +16,8 @@
 - `↑`: Shift up octave
 - `↓`: Shift down octave
 - `,`: Phrase separator
+
+## Live Mode (Shorthand)
+- Omit section names if just capturing roadmap.
+- `~`: Oscillation (replaces `⇄`) for typing speed.
+- Example: `~Am(Am~F>G)`
