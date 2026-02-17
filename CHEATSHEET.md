@@ -1,4 +1,4 @@
-# HFN Cheatsheet (v1.0.0)
+# HAL Cheatsheet (v1.0.0)
 
 ## Center State (Prefix)
 - `=X`: Static center
@@ -20,4 +20,4 @@
 ## Live Mode (Shorthand)
 - Omit section names if just capturing roadmap.
 - `~`: Oscillation (replaces `⇄`) for typing speed.
-- Example: `~Am(Am~F>G)`
+- Example: `~Am (Am~F>G)`

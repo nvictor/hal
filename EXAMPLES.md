@@ -1,6 +1,6 @@
-# HFN Examples
+# HAL Examples
 
-This document serves as a workbook for HFN (Harmonic Flow Notation), demonstrating how to capture harmonic centers and motion across various song forms.
+This document serves as a workbook for HAL (Harmonic Architecture Language), demonstrating how to capture harmonic centers and motion across various song forms.
 
 ## Basic Examples
 

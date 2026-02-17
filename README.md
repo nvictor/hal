@@ -1,7 +1,7 @@
-# Harmonic Flow Notation (HFN)
+# Harmonic Architecture Language (HAL)
 **Version:** 1.0.0
 
-HFN is a lightweight, section-level notation for describing harmonic center (tonal gravity) and harmonic motion across a song form.
+HAL is a lightweight, section-level notation for describing harmonic center (tonal gravity) and harmonic motion across a song form.
 
 ## Model: Captures vs Ignores
 
@@ -15,6 +15,7 @@ HFN is a lightweight, section-level notation for describing harmonic center (ton
 ## Canonical Syntax
 
 ```text
+HAL ::= <Section>+
 Section ::= <Name> ":" [<CenterState>] "(" <Motion> ")"
 CenterState ::= ("=" | "⇄" | "⊃" | "↗" | "→") <Chord>
 Motion ::= <Chord> (<Operator> <Chord>)*
@@ -45,7 +46,7 @@ Describes movement between chords within a section.
 
 ## Semantics Rules
 
-- **Sectional Scope:** HFN defines intent at the section level, not the measure level.
+- **Sectional Scope:** HAL defines intent at the section level, not the measure level.
 - **Center Dominance:** The center-state prefix sets the context for all chord motion within that section.
 - **Motion Priority:** Operators define the *type* of movement, not the specific duration.
 - **Implicit Continuity:** Unless a new center is declared, the previous center is assumed to persist.
@@ -54,7 +55,7 @@ Describes movement between chords within a section.
 
 - A section must have a name.
 - Chord motion must be contained within parentheses.
-- HFN intentionally avoids Roman numerals to maintain focus on flow over theory.
+- HAL intentionally avoids Roman numerals to maintain focus on flow over theory.
 
 ## Live Mode (Shorthand)
 
