@@ -11,7 +11,7 @@ It captures section-level tonal gravity, transitions, and resolution trends. It 
 HAL ::= <Section>+
 Section ::= <Name> ":" [<CenterState>] "(" <Motion> ")"
 Name ::= <Text>
-CenterState ::= ("=" | "⇄" | "⊃" | "↗" | "→") <Chord>
+CenterState ::= ("=" | "⇄" | "⊃" | "↗" | "↘" | "→") <Chord>
 Motion ::= <Phrase> ("," <Phrase>)*
 Phrase ::= <Chord> (<Operator> <Chord>)*
 Chord ::= <ChordName> ["↑" | "↓"]
@@ -35,8 +35,9 @@ Use a center-state prefix before the motion to name the section's home feeling.
 - `=X`: Established or static center.
 - `⇄X`: Stable but oscillating center.
 - `⊃X`: Prolonged or expanded center.
-- `↗X`: Intensifying toward X.
-- `→X`: Directed toward a new center.
+- `↗X`: Building harmonic tension toward X.
+- `↘X`: Releasing harmonic tension toward X.
+- `→X`: Transitioning from the previous center to X.
 
 ### Chord Motion
 
@@ -97,13 +98,13 @@ Post: =E (E)
 Bridge: →C (E → F → C)
 Break: =C (C)
 Final Chorus: ↗E (C → Am → E ⇄ G)
-Outro: =Am (Am)
+Outro: ↘Am (E → Am)
 ```
 
 Tonal roadmap:
 
 ```text
-=Am ⇄Am ⊃Am ↗E ⇄E =E →C =C ↗E =Am
+=Am ⇄Am ⊃Am ↗E ⇄E =E →C =C ↗E ↘Am
 ```
 
 ### Holy Forever
@@ -156,7 +157,8 @@ Chorus: ⇄Am (
 - `Verse: ⇄Am (Am ⇄ F → G)`: Section with oscillating A minor center and directed motion toward G.
 - `Intro: =Am (Am)`: Static A minor center with no chord motion.
 - `Section: =X (X = X)`: Static center with explicit sustain or pedal motion.
-- `Bridge: →C (E → F → C)`: Section moving toward C.
-- `Final Chorus: ↗E (C → Am → E ⇄ G)`: Section intensifying toward E.
+- `Bridge: →C (E → F → C)`: Section transitioning from the previous center to C.
+- `Final Chorus: ↗E (C → Am → E ⇄ G)`: Section building harmonic tension toward E.
+- `Outro: ↘Am (E → Am)`: Section releasing harmonic tension toward A minor.
 - `Chorus: ⇄Am (Am → C → B° → Am, C → Em → Dm)`: Section with two phrase groups.
 - `~Am (Am~F>G)`: Live shorthand for `⇄Am (Am ⇄ F → G)`.
